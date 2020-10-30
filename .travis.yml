@@ -9,6 +9,11 @@ matrix:
     - compiler: gcc
       os: linux
       env: GCOV=1
+    #powerjob
+    - compiler: gcc
+      os: linux
+      arch: ppc64le
+      env: GCOV=1    
   exclude:
     - os: osx
       compiler: gcc
