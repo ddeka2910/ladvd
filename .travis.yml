@@ -4,6 +4,9 @@ compiler:
   - gcc
 os:
   - linux
+arch:
+  - amd64
+  - ppc64le
 matrix:
   include:
     - compiler: gcc
